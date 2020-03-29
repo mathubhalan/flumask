@@ -1,0 +1,26 @@
+<annotation>
+	<folder>img</folder>
+	<filename>37.jpg</filename>
+	<path>C:\Mathu\Projects\Mask\img\37.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>200</width>
+		<height>200</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>flu mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>68</xmin>
+			<ymin>82</ymin>
+			<xmax>121</xmax>
+			<ymax>128</ymax>
+		</bndbox>
+	</object>
+</annotation>
