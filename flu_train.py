@@ -13,6 +13,7 @@ class FluMaskDataset(Dataset):
     def load_dataset(self, dataset_dir, is_train=True):
         # define one class
         self.add_class("dataset", 1, "flumask")
+		self.add_class("dataset", 2, "mask")
         # define data locations
         images_dir = dataset_dir + '/images/'
         annotations_dir = dataset_dir + '/annots/'
@@ -89,12 +90,12 @@ class fluMaskConfig(Config):
 
 # prepare train set
 train_set = FluMaskDataset()
-train_set.load_dataset('/home/mathu/flumask', is_train=True)
+train_set.load_dataset('/home/mohanapriya/flumask', is_train=True)
 train_set.prepare()
 print('Train: %d' % len(train_set.image_ids))
 # prepare test/val set
 test_set = FluMaskDataset()
-test_set.load_dataset('/home/mathu/flumask', is_train=False)
+test_set.load_dataset('/home/mohanapriya/flumask', is_train=False)
 test_set.prepare()
 print('Test: %d' % len(test_set.image_ids))
 # prepare config
