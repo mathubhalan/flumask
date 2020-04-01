@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Apr  1 09:15:39 2020
+
+@author: Mathu
+"""
+
 # fit a mask rcnn on the kangaroo dataset
 from os import listdir
 from xml.etree import ElementTree
@@ -13,7 +20,7 @@ class FluMaskDataset(Dataset):
     def load_dataset(self, dataset_dir, is_train=True):
         # define one class
         self.add_class("dataset", 1, "flumask")
-		self.add_class("dataset", 2, "mask")
+        self.add_class("dataset", 2, "mask")
         # define data locations
         images_dir = dataset_dir + '/images/'
         annotations_dir = dataset_dir + '/annots/'
