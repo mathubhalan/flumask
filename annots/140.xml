@@ -1,0 +1,26 @@
+<annotation>
+	<folder>dataset</folder>
+	<filename>140.jpg</filename>
+	<path>D:\neuralrays ai\dataset\140.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>228</width>
+		<height>221</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3</xmin>
+			<ymin>11</ymin>
+			<xmax>108</xmax>
+			<ymax>105</ymax>
+		</bndbox>
+	</object>
+</annotation>
