@@ -12,15 +12,15 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>mask</name>
+		<name>flumask</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>147</xmin>
-			<ymin>71</ymin>
+			<xmin>154</xmin>
+			<ymin>75</ymin>
 			<xmax>246</xmax>
-			<ymax>149</ymax>
+			<ymax>147</ymax>
 		</bndbox>
 	</object>
 </annotation>

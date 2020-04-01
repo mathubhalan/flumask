@@ -1,0 +1,38 @@
+<annotation>
+	<folder>img</folder>
+	<filename>104.jpg</filename>
+	<path>C:\Mathu\Projects\Mask\img\104.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>200</width>
+		<height>200</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>flu mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>89</xmin>
+			<ymin>104</ymin>
+			<xmax>124</xmax>
+			<ymax>165</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>flu mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>79</xmin>
+			<ymin>67</ymin>
+			<xmax>103</xmax>
+			<ymax>104</ymax>
+		</bndbox>
+	</object>
+</annotation>
